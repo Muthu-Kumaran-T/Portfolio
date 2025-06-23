@@ -12,17 +12,22 @@
 
 .image {
   margin-bottom: 26px;
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
 }
 
 .title {
   font-size: 25px;
   font-weight: 700;
+  color: var(--color-text);
 }
 
 .description {
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
+  color: var(--color-text);
 }
 
 .skills {
@@ -33,6 +38,7 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  padding-left: 0;
 }
 
 .skill {
@@ -41,13 +47,15 @@
   border-radius: 100px;
   background: var(--color-dark);
   padding: 2px 22px;
+  color: var(--color-text);
 }
 
 .links {
   width: 100%;
   margin-top: 26px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .link {
@@ -57,5 +65,85 @@
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);
-  padding: 1px 22px;
+  padding: 6px 22px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.link:hover {
+  background: var(--color-primary-hover, #3a5ca8);
+}
+
+/* Screenshot Gallery inside Modal */
+.screenshotGallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.modalImage {
+  width: 200px;
+  max-height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Overlay */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal Box */
+.modalContent {
+  position: relative;
+  max-width: 90%;
+  max-height: 85%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow-y: auto;
+  padding: 24px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Close Button */
+.closeButton {
+  position: absolute;
+  top: 8px;
+  right: 14px;
+  font-size: 28px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.closeButton:hover {
+  color: red;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

@@ -1,29 +1,20 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
+    "platform": "LeetCode",
+    "profileLink": "https://leetcode.com/u/muthurock1352/",
+    "description": "Active problem solver with 200+ problems solved.",
+    "imageSrc": "history/leetcode.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
+    "platform": "SkillRack",
+    "profileLink": "https://www.skillrack.com/faces/resume.xhtml?id=404896&key=64031571b8c878a04cc81c24566f4a9580880557",
+    "description": "Daily participant in coding challenges.Solved over 1200+ problems.",
+    "imageSrc": "history/skillrack.png"
   },
   {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
-    "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
-    ],
-    "imageSrc": "history/netflix.png"
+    "platform": "TakeUForward DSA Sheet",
+    "profileLink": "https://takeuforward.org/profile/Muthu@1365",
+    "description": "Following Striver’s SDE Sheet for mastering DSA and coding interviews.",
+    "imageSrc": "history/TUF.png"
   }
 ]

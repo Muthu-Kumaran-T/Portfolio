@@ -1,26 +1,30 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Todo App",
+    "imageSrc": "projects/Todo.png",
+    "description": "Build ToDo App with authentication, profile management, deadline reminders, and email notifications.",
+    "skills": ["React", "Express", "Node","MongoDB"],
+    "demo": "https://todoemailremainder.netlify.app/",
+    "source": "https://github.com/Muthu-Kumaran-T/Todo-App"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Symptom Checker Chatbot",
+    "imageSrc": "projects/chatbot.png",
+    "description": "Created a real-time symptom checker chatbot using LLaMA & Groq API , deployed via streamlit.",
+    "skills": ["NLP", "Streamlit", "Transformers"],
+    "demo": "https://symptom-checker-chatbot.streamlit.app/",
+    "source": "https://github.com/Muthu-Kumaran-T/Symptom-checker"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Employee Management System",
+    "imageSrc": "projects/EMS.png",
+    "description": "Created with Spring Boot and React , using REST API to perform CRUD operations.",
+    "skills": ["React", "SpringBoot", "MYSQL"],
+    "screenshots": [
+    "projects/Screenshot_1.png",
+    "projects/Screenshot_2.png",
+    "projects/Screenshot_3.png"
+  ],
+    "source": "https://github.com/Muthu-Kumaran-T/Employee_Management_System"
   }
 ]

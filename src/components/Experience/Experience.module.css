@@ -68,10 +68,15 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  background: linear-gradient(90deg, #d4af37 0%, #ff8c00 100%);
   border-radius: 10px;
   padding: 24px;
+  transition: transform 0.3s ease;
+}
+
+.historyItem:hover {
+  transform: scale(1.02);
+  cursor: pointer;
 }
 
 .historyItem img {
@@ -85,11 +90,13 @@
 .historyItemDetails h3 {
   font-size: 30px;
   font-weight: 500;
+  color: #ffffff; /* Better contrast on gradient */
 }
 
 .historyItemDetails p {
   font-size: 20px;
   font-weight: 300;
+  color: #ffffff; /* Better contrast on gradient */
 }
 
 .historyItemDetails ul {
