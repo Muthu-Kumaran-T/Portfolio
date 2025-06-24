@@ -53,7 +53,6 @@
 .heroImg {
   width: 40%;
   z-index: 1;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -77,7 +76,6 @@
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
@@ -90,7 +88,6 @@
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 250px;
   top: 246px;
   right: -25vw;
@@ -103,9 +100,33 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
   }
 
   .content {
     align-items: center;
+  }
+
+  .title {
+    font-size: 38px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 90vw;
+  }
+
+  .heroImg {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+
+  .contactBtn {
+    font-size: 22px;
+    padding: 12px 20px;
   }
 }
