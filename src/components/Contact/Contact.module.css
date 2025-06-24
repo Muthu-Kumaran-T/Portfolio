@@ -7,22 +7,25 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
+  width: 100%;
   padding: 58px 10%;
   gap: 10px;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .text h2 {
   font-size: 80px;
   font-weight: 700;
   letter-spacing: 4px;
+  margin-bottom: 12px;
 }
 
 .text p {
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
+  margin: 0;
 }
 
 .links {
@@ -31,12 +34,15 @@
   align-items: flex-start;
   list-style: none;
   gap: 26px;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
   display: flex;
   align-items: center;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .link a {
@@ -45,8 +51,11 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  word-break: break-word;
+  max-width: 90vw;
 }
 
+/* Responsive for Mobile */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
@@ -70,6 +79,6 @@
   }
 
   .link a {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
