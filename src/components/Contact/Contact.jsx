@@ -20,13 +20,13 @@ export const Contact = () => {
             alt="LinkedIn icon"
           />
           <a href="http://www.linkedin.com/in/muthu-kumaran1365">
-            linkedin.com/Muthu-Kumaran1365
+            linkedin.com/Muthu Kumaran
           </a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
           <a href="https://github.com/Muthu-Kumaran-T">
-            github.com/Muthu-Kumaran-T
+            github.com/Muthu Kumaran 
           </a>
         </li>
       </ul>
