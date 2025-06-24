@@ -10,6 +10,7 @@
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .text h2 {
@@ -49,16 +50,26 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    gap: 40px;
+    padding: 40px 6%;
+    align-items: center;
+    text-align: center;
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .text h2 {
+    font-size: 45px;
+  }
+
+  .text p {
+    font-size: 22px;
   }
 
   .links {
     align-items: center;
+    gap: 20px;
+  }
+
+  .link a {
+    font-size: 20px;
   }
 }
