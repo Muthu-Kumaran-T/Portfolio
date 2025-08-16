@@ -16,6 +16,14 @@
     "source": "https://github.com/Muthu-Kumaran-T/Symptom-checker"
   },
   {
+  "title": "Interview Prep AI",
+  "imageSrc": "projects/interviewprep.png",
+  "description": "Developed a MERN application that uses the Gemini API to generate role-specific interview questions and answers.",
+  "skills": ["React", "GeminiAPI", "MongoDB","Node.js"],
+  "demo": "https://interviewprepapp.netlify.app/",
+  "source": "https://github.com/Muthu-Kumaran-T/Interview-Prep-App"
+  },
+  {
     "title": "Employee Management System",
     "imageSrc": "projects/EMS.png",
     "description": "Created with Spring Boot and React , using REST API to perform CRUD operations.",
